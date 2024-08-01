@@ -1,10 +1,13 @@
 {
+    "name": "shahmal1yev/ignore",
+    "description": "A PHP console app to create and manage .gitignore files from Gitignore.io. Easily specify patterns, save to your project, and integrate with Git. Features include interactive pattern selection, quiet mode for non-interactive use, and directory validation.",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
     },
     "require": {
+        "php": ">=8.2",
         "symfony/console": "^7.1",
         "symfony/http-client": "^7.1"
     }
